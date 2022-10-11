@@ -1,0 +1,134 @@
+/* menu button styling */
+.menu_btn{
+color: #000;
+font-size: 22px;
+font-weight: 100;
+cursor: pointer;
+display: none;
+}
+
+.home{
+    display: flex;
+    background-image: url(images/bc.jpeg);
+}
+ .home_image{
+     float: left;
+ }
+
+/* responsive media query */
+@media (max-width:990px) {
+    .max_width{
+        max-width: 1300px;
+        padding: 0% 48px;
+        margin: auto;
+    }
+    .nav_bar .menu{
+        position: fixed;
+        height: 100vh;
+        left: 0%;
+        top: 0%;
+        width: 100%;
+        color: black; 
+        font-size: 20px;
+        font-weight: 500; 
+        padding-top: 40px;            
+      
+      }
+      .nav_bar .menu li{
+          display: block;
+          text-align: center;
+      }
+      .nav_bar .menu li a{
+          display: inline-block;
+          margin: 8px 0%;
+      }
+      .menu_btn{
+          display: block;
+      }
+}
+
+      .About .About_content .right .text1{
+         font-size: 20px;
+         font-weight: 200;
+         margin-bottom: 10px;
+         text-align: justify;
+}
+
+/* Projects Section Styling */
+
+       .My_Projects{
+           background: linear-gradient(rgb(91, 94, 91),rgb(94, 144, 153),grey);
+       }
+
+       .My_Projects_Content{
+           display: flex
+       }
+
+        .My_Projects h2{
+           align-items: center;
+
+       }
+      
+        /* .My_Projects_Content img{
+        width: 700px;   
+        height: 700px;
+        padding: 3% 3%;
+         margin-right: -22.5%; 
+        */
+        .My_Projects_Content img{
+        width: 400%;   
+        height: 12cm;
+        padding: 0% 83% 83% 0%;
+        margin-inline-end: 2%;
+        
+        
+    } 
+
+       .My_Projects_Content h2{
+           text-align: center;
+         
+       }
+
+       .skills{
+           text-align: center;
+           justify-content: center;
+          list-style-type: none;
+       }
+
+       .skills .card{
+      width: calc(50% -20px);
+      justify-content: center;
+      
+
+       }
+
+       .skills .container .card .li{
+           list-style-type: none;
+       }
+
+       /* .skills{
+           font-size: 24px;
+       } */
+
+       .form{
+        text-align: center; 
+       }
+
+
+
+       .Footer{
+        text-align: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://download.unsplash.com/photo-1428604467652-115d9d71a7f1");
+       font-size: 30px;
+       font-weight: 800;
+    }
+
+      /* .Footer .accounts a{
+          background-color: #000;
+      } */
+
+      .Footer .accounts a:hover{
+        background-color:white;
+    }
+
+      
